@@ -1,0 +1,26 @@
+.cards{
+    width: 300px;
+}
+
+.card_section{
+    display: flex;
+    gap: 30px;
+}
+
+.card_content{
+    margin-top: 100px;
+}
+
+.card_content h2{
+    color: rgb(47, 47, 47);
+}
+
+.card_content p{
+    color: rgb(106, 106, 106);
+    width: 350px;
+}
+
+.card_inside_btn{
+    border-radius: 7px;
+    background: #2f2f2f;
+}

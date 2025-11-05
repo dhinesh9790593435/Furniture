@@ -1,0 +1,135 @@
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1 p{
+  width: 400px;
+}
+
+.form{
+  display: flex;
+  gap: 20px;
+}
+
+.form span:nth-child(1){
+  font-size:23px ;
+}
+
+.form span:nth-child(2){
+  position: relative;
+  bottom: 5px;
+}
+
+.form span{
+    font-size: 21px;
+    font-weight: 500;
+    color: #3b5d50;
+}
+
+.inputs input{
+    height: 50px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    width: 240px;
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+.inputs input:nth-child(2){
+  margin-left: 20px;
+}
+
+.inputs button{
+  background: #3b5d50;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-left: 20px;
+  position: relative;
+  top: 4px;
+}
+
+.section1  h3{
+    font-size: 32px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #3b5d50;
+}
+
+.section1 p{
+  font-size: 16px;
+  width: 500px;
+  color: #6a6a6a;
+  font-family: "Inter", sans-serif;
+}
+
+.section2 ul li{
+  color: #2f2f2f;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.section3 ul li {
+  color: #2f2f2f;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.section4 ul li {
+  color: #2f2f2f;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.section5 ul li {
+  color: #2f2f2f;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.social_media h4{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    padding: 10px 10px;
+    font-size: 19px;
+    display: inline-block;
+    background: #dce5e4;
+    color: #3b5d50;
+    border-radius: 50%;
+}
+
+.social_media {
+  display: flex;
+  gap: 10px;
+}
+
+.copyright{
+   border-top: 1px solid #dee2e6 !important;
+   margin-top: 100px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.copyright .left P{
+    color: #6a6a6a;
+    font-size: 14px;
+        font-family: "Inter", sans-serif;
+        margin-top: 50px;
+        line-height: 30px;
+}
+
+.copyright .right P {
+  color: #6a6a6a;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  margin-top: 50px;
+  line-height: 30px;
+}
