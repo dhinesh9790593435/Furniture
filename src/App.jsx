@@ -1,22 +1,24 @@
 import './App.css'
-import Header from '../src/components/Header'
-import { ThreeDCardDemo } from '../src/pages/Card'
-import Why_choose from './pages/Why_choose'
-import {AnimatedTestimonialsDemo} from '../src/pages/Testimonial'
-import Footer from './components/Footer'
-import Contact from './pages/Contact'
+import {Route, Router, Routes} from 'react-router-dom'
+import Home from './pages/Home'
+
+
 
 function App() {
  
 
   return (
     <>
-        <Header/>
-        <ThreeDCardDemo/>
-        <Why_choose/>
-        <AnimatedTestimonialsDemo/>
-        <Footer/>
-        {/* <Contact/> */}
+
+   <Routes>
+        <Route path="/" element={<Home />} />
+        {/* <Route path="/shop" element={<Shop />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/contact" element={<Contact />} /> */}
+    </Routes>
+       
     </>
   )
 }

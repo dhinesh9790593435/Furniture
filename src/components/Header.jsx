@@ -6,6 +6,7 @@ import shoba from '../assets/images/shoba.png'
 import dot from '../assets/images/dots-light.svg'
 import { CgProfile } from "react-icons/cg";
 import { FiShoppingCart } from "react-icons/fi";
+import {Link} from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -25,12 +26,12 @@ const Header = () => {
 
                   <div className='col-lg-6 links'>
                     <ul>
-                      <li><a href="">Home</a></li>
-                      <li><a href="">Shop</a></li>
-                      <li><a href="">About </a></li>
-                      <li><a href="">Services</a></li>
-                      <li><a href="">Blog</a></li>
-                      <li><a href="">Contact</a></li>
+                      <li><Link to='/'>Home</Link></li>
+                      <li><Link to='/shop'>Shop</Link></li>
+                      <li><Link to='/about'>About</Link></li>
+                      <li><Link to='/service'>Services</Link></li>
+                      <li><Link to='/blog'>Blog</Link></li>
+                      <li><Link to='/contact'>Contact</Link></li>
                       <span><CgProfile/></span>
                       <span><FiShoppingCart/></span>
                     </ul>

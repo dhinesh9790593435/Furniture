@@ -94,7 +94,7 @@ const Why_choose = () => {
 
 
 
-            <div className='modern_interior'>    
+            <div className='modern_interior' style={{height:'730px'}}>    
                 <Row>
                     <div className="col-lg-7">
                        
@@ -106,20 +106,9 @@ const Why_choose = () => {
                     <div className="col-lg-5 modern_interior_content">
                         <h1>We Help You Make Modern </h1>
                         <h1>Interior Design</h1>
-                        <p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+                        <p className='mt-5'>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
                         <div className='lists'>
-                            <div>
-                                <ul>
-                                    <li>Donec vitae odio quis nisl dapibus malesuada</li>
-                                    <li>Donec vitae odio quis nisl dapibus malesuada</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <ul>
-                                    <li>Donec vitae odio quis nisl dapibus malesuada</li>
-                                    <li>Donec vitae odio quis nisl dapibus malesuada</li>
-                                </ul>
-                            </div>
+                           <button className='home_content_div_button1'>Explore</button>
                         </div>
                     </div>
                 </Row>
